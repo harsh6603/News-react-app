@@ -22,3 +22,17 @@ img{
 small{
     font-size:12px;
 }
+
+.source{
+    font-size:12px;
+    padding-top:20px;
+    margin:0
+}
+
+@media(max-width:400px){
+    .source{
+        font-size:14px;
+        padding-top:17px;
+        margin:0
+    }
+}

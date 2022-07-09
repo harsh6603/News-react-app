@@ -1,0 +1,16 @@
+#newsTitle{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#row{
+    margin-right:48px;
+    margin-left:48px;
+}
+
+@media(max-width:400px){
+    #row{
+        margin-right:16px;
+        margin-left:16px;
+    }
+}
