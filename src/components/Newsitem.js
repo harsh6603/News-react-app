@@ -11,7 +11,7 @@ export class Newsitem extends Component{
                         <div className="card-body">
                             <h5 className="card-title" id='title'>{title}</h5>
                             <p className="card-text" id='description'>{description}</p>
-                            <p className="card-text"><small className="text-muted">By {author}<br/>on {new Date(publishedAt).toGMTString()}</small></p>
+                            <p className="card-text" id=""><small className="text-muted">By {author}<br/>on {new Date(publishedAt).toGMTString()}</small></p>
                             <div className='d-flex justify-content-between'>
                                 <a href={newsUrl} className="btn btn-primary">Read More</a>
                                 <p style={{fontSize:"12px",paddingTop:"20px",margin:0}}>{name}</p>
